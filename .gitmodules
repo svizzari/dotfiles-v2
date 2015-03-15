@@ -10,3 +10,6 @@
 [submodule "zsh/plugins/pure"]
 	path = zsh/plugins/pure
 	url = https://github.com/sindresorhus/pure.git
+[submodule "zsh/plugins/z"]
+	path = zsh/plugins/z
+	url = https://github.com/rupa/z
