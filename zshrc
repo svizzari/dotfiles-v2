@@ -31,3 +31,12 @@ fi
 
 # Source boxen
 [ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
+
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
+
+# ADDED BY DOCKER-IMAGES
+source /Users/svizzari/Code/zendesk/docker-images/dockmaster/zdi.sh

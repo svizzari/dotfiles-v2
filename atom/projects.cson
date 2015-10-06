@@ -1,40 +1,50 @@
-'zendesk_app_market':
-  'title': 'zendesk_app_market'
-  'paths': [
-    '/Users/svizzari/Code/zendesk/zendesk_app_market'
+zendesk_app_market:
+  title: "zendesk_app_market"
+  paths: [
+    "/Users/svizzari/Code/zendesk/zendesk_app_market"
   ]
-'zendesk_console':
-  'title': 'zendesk_console'
-  'paths': [
-    '/Users/svizzari/Code/zendesk/zendesk_console'
+zendesk_console:
+  title: "zendesk_console"
+  paths: [
+    "/Users/svizzari/Code/zendesk/zendesk_console"
   ]
-'zendesk_app_framework':
-  'title': 'zendesk_app_framework'
-  'paths': [
-    '/Users/svizzari/Code/zendesk/zendesk_app_framework'
+zendesk_app_framework:
+  title: "zendesk_app_framework"
+  paths: [
+    "/Users/svizzari/Code/zendesk/zendesk_app_framework"
   ]
-'zendesk_apps_tools':
-  'title': 'zendesk_apps_tools'
-  'paths': [
-    '/Users/svizzari/Code/zendesk/zendesk_apps_tools'
+zendesk_apps_tools:
+  title: "zendesk_apps_tools"
+  paths: [
+    "/Users/svizzari/Code/zendesk/zendesk_apps_tools"
   ]
-'mason_app':
-  'title': 'mason_app'
-  'paths': [
-    '/Users/svizzari/Code/zendesk/apps/mason_app'
+mason_app:
+  title: "mason_app"
+  paths: [
+    "/Users/svizzari/Code/zendesk/apps/mason_app"
   ]
-'bonlux-bc-theme':
-  'title': 'bonlux-bc-theme'
-  'paths': [
-    '/Users/svizzari/Code/personal/sites/bonlux-bc-theme'
+"bonluxtheme":
+  title: "bonluxtheme"
+  paths: [
+    "/Users/svizzari/Code/personal/sites/bonluxtheme"
   ]
-'user_data_app':
-  'title': 'user_data_app'
-  'paths': [
-    '/Users/svizzari/Code/zendesk/apps/user_data_app'
+user_data_app:
+  title: "user_data_app"
+  paths: [
+    "/Users/svizzari/Code/zendesk/apps/user_data_app"
   ]
-'nesty':
-  'title': 'nesty'
-  'paths': [
-    '/Users/svizzari/Code/zendesk/nesty'
+nesty:
+  title: "nesty"
+  paths: [
+    "/Users/svizzari/Code/zendesk/nesty"
+  ]
+help_center:
+  title: "help_center"
+  paths: [
+    "/Users/svizzari/Code/zendesk/help_center"
+  ]
+conditional_fields_app:
+  title: "conditional_fields_app"
+  paths: [
+    "/Users/svizzari/Code/zendesk/apps/conditional_fields_app"
   ]

@@ -5,11 +5,44 @@
   welcome:
     showOnStartup: false
   core:
-    themes: [
-      "one-dark-ui"
-      "one-dark-syntax"
-    ]
+    audioBeep: false
+    excludeVcsIgnoredPaths: false
   editor:
     invisibles: {}
-    fontFamily: "Fira Mono"
-  "atom-alignment": {}
+    fontSize: 18
+    useShadowDOM: false
+    showIndentGuide: true
+    softWrapAtPreferredLineLength: true
+    fontFamily: "anonymous pro"
+  "atom-alignment":
+    addSpacePostfix: true
+  "atom-jsfmt":
+    formatOnSave: false
+  "linter-jscs":
+    harmony: true
+    onlyConfig: true
+    esnext: true
+  "isotope-ui":
+    spaciousMode: true
+    fontFamily: "Clear Sans"
+  "ember-cli-helper":
+    pathToEmberExecutable: "/opt/boxen/nodenv/shims/ember"
+    pathToNodeExecutable: "/Users/svizzari/.nvm/versions/node/v0.12.0/bin/node"
+  "linter-jshint":
+    jshintExecutablePath: "/opt/boxen/nodenv/shims/jshint"
+    disableWhenNoJshintrcFileInPath: true
+  "jscs-fixer":
+    harmony: true
+    jscsPath: "/Users/svizzari/.nvm/versions/node/v0.12.0/bin/jscs"
+    esprima: true
+  "autocomplete-plus": {}
+  "language-babel":
+    transpileOnSave: false
+  "one-dark-ui":
+    layoutMode: "Spacious"
+  "one-light-ui":
+    layoutMode: "Spacious"
+  react: {}
+  "linter-jsxhint":
+    harmony: true
+    jsxhintExecutablePath: "/Users/svizzari/.nvm/versions/node/v0.12.0/bin/jsxhint"

@@ -12,6 +12,7 @@
     ~/.zsh: zsh/
     ~/.vimrc: vimrc
     ~/.vim: vim
+    ~/.nvm: nvm/
 
 -
   shell:
