@@ -1,48 +1,40 @@
 "*":
-  linter: {}
+  "atom-material-ui":
+    colors:
+      abaseColor:
+        red: 170
+        green: 216
+        blue: 117
+        alpha: 1
+      accentColor:
+        red: 111
+        green: 136
+        blue: 83
+        alpha: 1
+      predefinedColor: "Green"
+    fonts: {}
+    tabs:
+      compactTabs: true
+    treeView: {}
+    ui:
+      panelContrast: true
+  core:
+    themes: [
+      "atom-material-ui"
+      "atom-material-syntax"
+    ]
+  editor:
+    backUpBeforeSaving: true
+    fontSize: 17
+    invisibles: {}
+    showIndentGuide: true
+    showInvisibles: true
   "exception-reporting":
-    userId: "ff51fdf6-a9f1-316c-f329-bf363019b559"
+    userId: "d641d977-3613-a9fe-8e04-4c7cec5a3fb6"
+  fonts:
+    fontFamily: "FiraCode"
+    preview: "This is a good test"
+  "tool-bar":
+    visible: false
   welcome:
     showOnStartup: false
-  core:
-    audioBeep: false
-    excludeVcsIgnoredPaths: false
-  editor:
-    invisibles: {}
-    fontSize: 18
-    useShadowDOM: false
-    showIndentGuide: true
-    softWrapAtPreferredLineLength: true
-    fontFamily: "anonymous pro"
-  "atom-alignment":
-    addSpacePostfix: true
-  "atom-jsfmt":
-    formatOnSave: false
-  "linter-jscs":
-    harmony: true
-    onlyConfig: true
-    esnext: true
-  "isotope-ui":
-    spaciousMode: true
-    fontFamily: "Clear Sans"
-  "ember-cli-helper":
-    pathToEmberExecutable: "/opt/boxen/nodenv/shims/ember"
-    pathToNodeExecutable: "/Users/svizzari/.nvm/versions/node/v0.12.0/bin/node"
-  "linter-jshint":
-    jshintExecutablePath: "/opt/boxen/nodenv/shims/jshint"
-    disableWhenNoJshintrcFileInPath: true
-  "jscs-fixer":
-    harmony: true
-    jscsPath: "/Users/svizzari/.nvm/versions/node/v0.12.0/bin/jscs"
-    esprima: true
-  "autocomplete-plus": {}
-  "language-babel":
-    transpileOnSave: false
-  "one-dark-ui":
-    layoutMode: "Spacious"
-  "one-light-ui":
-    layoutMode: "Spacious"
-  react: {}
-  "linter-jsxhint":
-    harmony: true
-    jsxhintExecutablePath: "/Users/svizzari/.nvm/versions/node/v0.12.0/bin/jsxhint"

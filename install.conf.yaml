@@ -1,19 +1,17 @@
----
--
-  clean: ["~", "~/.config"]
+- clean:
+    - "~"
+    - "~/.cache"
+    - "~/.config"
+    - "~/.config/fisherman"
+    - "~/.config/fish"
 
--
-  link:
+- link:
     ~/.dotfiles: ""
     ~/.gitconfig: gitconfig
     ~/.gitignore_global: gitignore_global
+    ~/.config/fish: config/fish/
+    ~/.config/fisherman: config/fisherman/
     ~/.atom: atom/
-    ~/.zshrc: zshrc
-    ~/.zsh: zsh/
-    ~/.vimrc: vimrc
-    ~/.vim: vim
-    ~/.nvm: nvm/
 
--
-  shell:
+- shell:
     - git submodule update --init --recursive # after linking ~/.gitconfig
